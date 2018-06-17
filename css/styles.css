@@ -45,7 +45,7 @@ body {
 }
 .container-all {
   font-family: Avenir;
-  max-width: 1133px;
+  max-width: 1333px;
   height: 100vh;
   margin: 0vh auto;
   display: flex;
@@ -308,6 +308,10 @@ main section {
 }
 .navbar .user-desc h3 img {
   margin: 0 4px;
+}
+.navbar .user-desc h3 a {
+  color: #3597db !important;
+  text-decoration: none;
 }
 .navbar .user-desc var {
   transition: all .3s ease;
