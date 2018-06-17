@@ -185,6 +185,7 @@ main section {
   }
 }
 .navbar .mid-menu a {
+  padding-bottom: 10px;
   font-weight: bold;
   background-color: white !important;
 }
@@ -192,6 +193,9 @@ main section {
   border-bottom: 4px solid transparent;
 }
 .navbar .mid-menu li:hover {
+  border-bottom: 4px solid #27ad5f;
+}
+.navbar .mid-menu .active {
   border-bottom: 4px solid #27ad5f;
 }
 .navbar .navbar-form {
