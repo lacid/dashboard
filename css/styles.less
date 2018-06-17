@@ -61,10 +61,28 @@ aside {
             border-radius: 50%;
         }
     }
-    nav a {
-        color: #95a5a5;
-        font-size: 13px;
-        font-weight: bold;
+    nav {
+        a {
+            img {
+                margin-left: 10px;
+            }
+            margin-top: 20px;
+            color: #95a5a5;
+            font-size: 13px;
+            font-weight: bold;
+            transition: all .1s ease-in;
+            &:hover {
+                background-color: #253442 !important;
+                color: #95a5a5;
+            }
+        }
+        .active a {
+            background-color: #253442 !important;
+        }
+        li p {
+            display: inline-block;
+            margin: 8px 0 5px 30px;
+        }
     }
 }
 

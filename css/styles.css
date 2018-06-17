@@ -86,9 +86,25 @@ aside header img {
   border-radius: 50%;
 }
 aside nav a {
+  margin-top: 20px;
   color: #95a5a5;
   font-size: 13px;
   font-weight: bold;
+  transition: all 0.1s ease-in;
+}
+aside nav a img {
+  margin-left: 10px;
+}
+aside nav a:hover {
+  background-color: #253442 !important;
+  color: #95a5a5;
+}
+aside nav .active a {
+  background-color: #253442 !important;
+}
+aside nav li p {
+  display: inline-block;
+  margin: 8px 0 5px 30px;
 }
 main {
   flex: 1 0 auto;
