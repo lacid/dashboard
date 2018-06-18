@@ -229,6 +229,8 @@ main section {
   background-color: white !important;
 }
 .navbar .mid-menu li {
+  padding: 0;
+  margin-right: 20px;
   border-bottom: 4px solid transparent;
 }
 .navbar .mid-menu li:hover {
@@ -357,6 +359,42 @@ main section {
 }
 .dropdown .btn {
   position: relative;
+}
+section .container-fluid #menu1a li:hover,
+section .container-fluid #menu1b li:hover,
+section .container-fluid #menu2a li:hover,
+section .container-fluid #menu2b li:hover,
+section .container-fluid #menu3a li:hover,
+section .container-fluid #menu3b li:hover {
+  cursor: pointer;
+  background-color: #f6f8fc;
+}
+section .container-fluid .active [href*="#menu1"] {
+  color: #e67333 !important;
+}
+section .container-fluid #menu1a li:hover,
+section .container-fluid #menu1b li:hover {
+  color: #e67333;
+  border-left: 4px solid #e67333;
+}
+section .container-fluid .active [href*="#menu2"] {
+  color: #8e44ad !important;
+}
+section .container-fluid #menu2a li:hover,
+section .container-fluid #menu2b li:hover {
+  color: #8e44ad;
+  border-left: 4px solid #8e44ad;
+}
+section .container-fluid .active [href*="#menu3"] {
+  color: #16a085 !important;
+}
+section .container-fluid #menu3a li:hover,
+section .container-fluid #menu3b li:hover {
+  color: #16a085;
+  border-left: 4px solid #16a085;
+}
+section .container-fluid [href^="#menu"] {
+  color: #95a5a6;
 }
 section .container-fluid .panel-footer a {
   font-size: 12px;

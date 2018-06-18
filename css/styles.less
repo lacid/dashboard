@@ -184,10 +184,12 @@ main {
             background-color: white !important;  //som prepisal bootstrap
         }
         li {
+            padding: 0;
+            margin-right: 20px;
             border-bottom: 4px solid transparent; //hento fixne ten skakavy efekt na hover; preco border-box nebavi??
-        }
-        li:hover {
-            border-bottom: 4px solid #27ad5f;
+            &:hover {
+                border-bottom: 4px solid #27ad5f;
+            }
         }
         .active {
             border-bottom: 4px solid #27ad5f;
@@ -319,6 +321,52 @@ main {
 
 section {
     .container-fluid{
+        #menu1a, #menu1b, #menu2a, #menu2b, #menu3a, #menu3b {
+            li:hover {
+                cursor: pointer;
+                background-color: #f6f8fc;
+            }
+        }
+        .active {
+            [href*="#menu1"] {
+                color: rgb(230,115,51) !important;
+            }
+        }
+        #menu1a, #menu1b {
+            li:hover {
+                color: rgb(230,115,51);
+                border-left: 4px solid rgb(230,115,51);
+            }
+        }
+
+        .active {
+            [href*="#menu2"] {
+                color: rgb(142,68,173) !important;
+            }
+        }
+        #menu2a, #menu2b {
+            li:hover {
+                color: rgb(142,68,173);
+                border-left: 4px solid rgb(142,68,173);
+            }
+        }
+
+        .active {
+            [href*="#menu3"] {
+                color: rgb(22,160,133) !important;
+            }
+        }
+        #menu3a, #menu3b {
+            li:hover {
+                color: rgb(22,160,133);
+                border-left: 4px solid rgb(22,160,133);
+            }
+        }
+
+        [href^="#menu"] {
+                color: rgb(149,165,166);
+        }
+
         .panel-footer a {
             font-size: 12px;
             letter-spacing: 0px;
