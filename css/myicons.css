@@ -10,7 +10,7 @@
     font-style: normal;
 }
 [class*='myicon-']:before{
-	display: inline-block;
+  	display: inline-block;
    font-family: 'myicons';
    font-style: normal;
    font-weight: normal;
